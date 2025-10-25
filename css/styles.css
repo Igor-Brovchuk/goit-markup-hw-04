@@ -37,6 +37,9 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 
 .header .container {
@@ -126,6 +129,7 @@ img {
 }
 
 .hero {
+  max-width: 1440px;
   background: #2e2f42;
   padding: 188px 0;
   background-image: linear-gradient(
@@ -161,7 +165,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -172,7 +176,7 @@ img {
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   margin-bottom: 68px;
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
@@ -334,6 +338,10 @@ img {
   padding: 100px 0;
 }
 
+.logo-text-wrapper {
+  margin-right: 120px;
+}
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -361,9 +369,9 @@ img {
 
 .container-footer {
   display: flex;
+  align-items: baseline;
 }
 .footer-social {
-  margin-left: 120px;
   width: 208px;
   height: 80px;
 }
