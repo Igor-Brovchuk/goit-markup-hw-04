@@ -296,8 +296,8 @@ img {
 }
 
 .team-icon {
-  width: 16;
-  height: 16;
+  width: 40px;
+  height: 40px;
   fill: #f4f4fd;
 }
 
@@ -428,8 +428,7 @@ img {
 }
 
 .footer-icon-link:hover,
-.footer-icon-link:focus,
-.footer-icon-link:active {
+.footer-icon-link:focus {
   background-color: #31d0aa;
 }
 
