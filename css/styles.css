@@ -343,7 +343,8 @@ img {
   padding: 40px 32px 164px;
 }
 
-.portfolio-card:hover .overlay-text {
+.portfolio-card:hover .overlay-text,
+.portfolio-card:focus .overlay-text {
   transform: translateY(0);
 }
 
