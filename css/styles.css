@@ -291,7 +291,7 @@ img {
 }
 
 .team-icon-link:hover,
-.team-icon-link:focus {
+.team-icon-link:active {
   background-color: #404bbf;
 }
 
